@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<declare-styleable name="HalfCircleProgressView">
+    <attr name="firstColor" format="color"/> <!--圆环颜色-->
+    <attr name="secondColor" format="color"/> <!--圆环颜色-->
+    <attr name="circleWidth" format="integer"/><!--色带宽度-->
+</declare-styleable>
+</resources>
