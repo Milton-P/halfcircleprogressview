@@ -17,9 +17,17 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />-->
     <com.test.milton.halfcircleprogressview.HalfCircleProgressView
+        android:id="@+id/halfCircle"
         android:layout_width="200dp"
         android:layout_height="120dp"
-        app:firstColor="#ff0000"/>
+        app:backgroudColor="#00ff00"
+        app:progressColor="#ff0000"
+        app:name="募集进度"
+        app:textSize="16sp"
+        app:textColor="#0000ff"
+        app:circleWidth="10dp"
+        app:padding="5dp"
+        />
  <!-- <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
